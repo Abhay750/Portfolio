@@ -1,16 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Macondo&display=swap" rel="stylesheet">
-    <title>portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shojumaru&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1 id="logo">Portfolio</h1>
+        <nav class="nav">
+            <a href="#main_home" id="home">Home</a>
+            <a href="#aboutme" id="about">About</a>
+            <a href="#" id="service">Service</a>
+            <a href="#" id="skills">Skills</a>
+            <a href="#" id="projects">Projects</a>
+            <a href="#" id="content">Contacts</a>
+        </nav>
+    </header>
+    <section class="main_home">
+        <spline-viewer url="https://prod.spline.design/K6cwQ0il3TqVzKYJ/scene.splinecode" style="background-position: center; background-size: cover;"></spline-viewer>
+        <div class="intro">
+            <h2 id="hii">hii 👋</h2>
+            <p>I am<h1 id="abhay">Abhay</h1></p>
+        </div>
+        <div class="black"></div>
+        <div class="socil">
+            <i class="fa-brands fa-instagram" id="i1"></i>
+           <a href="https://github.com/dashboard" id="i2"> <i class="fa-brands fa-github"></i></a>
+           <a href="https://www.linkedin.com/in/abhay-kumar-a6651337a/" id="i3"> <i class="fa-brands fa-square-linkedin"></i></a>
+        </div>
+    </section>
+    <section class="aboutme" id="aboutme">
+        <div class="me"><spline-viewer url="https://prod.spline.design/tw7-vyY2A6TiW6mj/scene.splinecode"></spline-viewer></div>
+        <div class="my_intro">
+            <h1 style="margin-top: -50px; font-size: 3rem;">About <span style="color: palegreen;">Me</span></h1>
+            <br>
+            <p>I'm a college student passionate about web development <br>
+                and emerging technologies. I enjoy creating clean, <br>
+                responsive, and user-friendly websites while exploring<br> 
+                modern tools, frameworks,and design principles. My interest<br>
+                in  technology goes beyond coding—I love staying updated with <br>
+                new trends,  experimenting with ideas, and learning how innovations <br>
+                shape the digital world.College has helped me strengthen my <br>
+                problem-solving skills,teamwork, and creativity, motivating me<br>
+                to take on personal projects and collaborate  with others. I aim<br>
+                to continue growing as a developer and contribute to impactful, <br> 
+                real-world tech solutions.</p>
+            <button id="btn_about">More About Me</button>
+        </div>
+    </section>
+    <!--  view1 -->
+    <section class="service_info1" id="view"> 
+        <div class="tital_service"><h1>My<span class="text_for"></span></h1></div>
+        <div class="services">
+            <div class="service1">developer</div>
+            <div class="service2">Softewere</div>
+            <div class="service3">Gamer</div>
+        </div>
+        <div class="view">
+            <button class="V view1" onclick="showView(1)">V1</button>
+            <button class="V view2" onclick="showView(2)">V2</button>
+        </div>
+    </section>
+    <!-- view2 -->
+     <section class="service_info2" id="view"> 
+        <div class="tital_service"><h1>My<span class="text_for_more"></span></h1></div>
+        <div class="services">
+            <div class="service1">developer</div>
+            <div class="service2">Softewere</div>
+            <div class="service3">Gamer</div>
+        </div>
+        <div class="view">
+            <button class="V view2" onclick="showView(2)">V2</button>
+            <button class="V view1"onclick="showView(1)">V1</button>
+        </div>
+    </section>
+    <section class="skill_info"></section>
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.0/build/spline-viewer.js"></script>
+    <script src="https://kit.fontawesome.com/381e2ef50d.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.0/build/spline-viewer.js"></script>
+    
+
+</body>
 </html>
