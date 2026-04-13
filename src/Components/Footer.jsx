@@ -3,11 +3,8 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full text-gray-300 py-10 px-6 md:px-20 mt-20">
-      
+    <footer className="w-full text-gray-300 py-10 px-6 md:px-20 mt-20">      
       <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-        
-        {/* Left */}
         <div className="text-center md:text-left">
           <h2 className="text-2xl font-bold text-white">Abhay Kumar</h2>
           <p className="text-gray-400 text-sm mt-1">
