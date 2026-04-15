@@ -70,7 +70,7 @@ const About = () => {
             <Bug className="text-blue-500 w-6 h-6 sm:w-7 sm:h-7" />
             <p className="text-white text-sm sm:text-base">Problem Solving</p>
             <p className="text-gray-400 text-xs sm:text-sm text-center">
-              Active Contributor
+              Strong Analytical Skills
             </p>
           </div>
 
