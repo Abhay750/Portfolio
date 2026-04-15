@@ -18,3 +18,9 @@ body{
 .para{
     font-family: system-ui, sans-serif;
 }
+.form input{
+    font-family: system-ui, sans-serif;
+}
+.form textarea{
+    font-family: system-ui, sans-serif;
+}

@@ -8,6 +8,7 @@ import About from "./Pages/About";
 import Skill from "./Pages/Skill";
 import Projects from "./Pages/Projects";
 import Footer from "./Components/Footer";
+import Formfill from "./Pages/Formfill";
 
 export default function App() {
   useGSAP(() => {
@@ -51,6 +52,7 @@ export default function App() {
       <About />
       <Skill />
       <Projects />
+      <Formfill />
       <Footer />
     </main>
     </>
