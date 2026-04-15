@@ -9,25 +9,25 @@ const Frontend = () => {
   ];
 
   return (
-    <div className="frontend w-full h-80 p-5 border border-gray-700 rounded-lg flex flex-col bg-gray-600/30 backdrop-blur-sm">
-      
-      <h1 className="text-white text-2xl mb-4">
+    <div className="frontend w-full p-4 sm:p-5 border border-gray-700 rounded-lg flex flex-col bg-gray-600/30 backdrop-blur-sm">
+
+      <h1 className="text-white text-xl sm:text-2xl mb-3 sm:mb-4">
         Frontend Development
       </h1>
 
-      <div className="space-y-4 w-full">
+      <div className="space-y-3 sm:space-y-4 w-full">
         {reactSkills.map((skill, index) => (
           <div key={index}>
-            
+
             <div className="flex justify-between text-white mb-1">
-              <span id="name" className="text-sm text-gray-500">{skill.name}</span>
-              <span>{skill.level}%</span>
+              <span className="text-xs sm:text-sm text-gray-400">{skill.name}</span>
+              <span className="text-xs sm:text-sm">{skill.level}%</span>
             </div>
 
-            <div className="bg-black/50 w-full rounded-full h-2 overflow-hidden">
+            <div className="bg-black/50 w-full rounded-full h-1.5 sm:h-2 overflow-hidden">
               <div
-                className="bg-blue-500 h-2 rounded-full transition-all duration-500"
-                style={{ width: `${skill.level}%` }} 
+                className="bg-blue-500 h-full rounded-full transition-all duration-500"
+                style={{ width: `${skill.level}%` }}
               ></div>
             </div>
 

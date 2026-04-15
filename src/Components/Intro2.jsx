@@ -1,13 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const Intro2 = () => {
   return (
-    <>
-      <div className="intro2 flex flex-col items-center justify-center h-screen w-screen bg-black text-white">
-        <h1 className="text-8xl">Welcome to my World</h1>
-      </div>
-    </>
-  )
-}
+    <div className="intro2 flex flex-col items-center justify-center min-h-screen w-full bg-black text-white px-4">
+      
+      <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl text-center leading-tight">
+        Welcome to my World
+      </h1>
 
-export default Intro2
+    </div>
+  );
+};
+
+export default Intro2;

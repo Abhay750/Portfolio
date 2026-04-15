@@ -30,7 +30,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen px-6 md:px-20 py-20 flex flex-col overflow-x-hidden">
+    <div className="w-full min-h-screen px-6 md:px-20 py-20 flex flex-col mt-30 overflow-x-hidden">
       
       <h1 className="text-4xl md:text-5xl text-blue-500">
         Projects

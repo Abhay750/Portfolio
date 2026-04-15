@@ -6,20 +6,20 @@ import Design from '../Components/Design'
 
 const Skill = () => {
   return (
-    <>
-        <div className="skillsection px-40 py-20 h-screen w-screen flex flex-col" id='skills'>
-            <h1 className="text-5xl text-blue-600">Skills</h1>
-            <p className='text-gray-500'>Technologies I work with</p>
-            <div className="skillbox grid grid-cols-2 grid-rows-2 gap-7 mt-10 rounded-2xl p-7">
-                <Frontend />
-                <Backend />
-                <AI_Engineering />
-                <Design />
+    <div
+      className="skillsection px-6 sm:px-12 md:px-20 lg:px-40 py-12 sm:py-16 md:py-20 min-h-screen w-full flex flex-col"
+      id="skills"
+    >
+      <h1 className="text-3xl sm:text-4xl md:text-5xl text-blue-600">Skills</h1>
+      <p className="text-gray-500 mt-1 text-sm sm:text-base">Technologies I work with</p>
 
-            </div>
-        </div>
-        
-    </>
+      <div className="skillbox grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-6 md:gap-7 mt-8 sm:mt-10 rounded-2xl p-4 sm:p-6 md:p-7">
+        <Frontend />
+        <Backend />
+        <AI_Engineering />
+        <Design />
+      </div>
+    </div>
   )
 }
 
