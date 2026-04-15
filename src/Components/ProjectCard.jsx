@@ -4,8 +4,7 @@ import { FaGithub } from "react-icons/fa";
 const ProjectCard = ({ title, description, tags, link, gitlink }) => {
   return (
     <div className="projectcard relative w-full max-w-sm sm:max-w-md bg-[#2a2f35] text-white p-4 sm:p-5 md:p-6 rounded-2xl sm:rounded-3xl border border-gray-600 overflow-hidden shadow-lg hover:scale-[1.03] transition-all duration-300">
-      
-      {/* Background Glow */}
+
       <div className="absolute top-0 right-0 w-28 sm:w-40 h-28 sm:h-40 bg-[#7c9c97] opacity-20 sm:opacity-30 rounded-full translate-x-8 sm:translate-x-10 -translate-y-8 sm:-translate-y-10 blur-2xl"></div>
 
       {/* Title */}

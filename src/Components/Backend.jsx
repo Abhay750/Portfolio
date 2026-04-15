@@ -2,9 +2,9 @@ import React from "react";
 
 const Backend = () => {
   const backendSkills = [
-    { name: "Node.js", level: 80 },
-    { name: "Express.js", level: 75 },
-    { name: "MongoDB", level: 70 },
+    { name: "Node.js", level: 5 },
+    { name: "Express.js", level: 5 },
+    { name: "MongoDB", level: 0 },
     { name: "Python", level: 65 },
   ];
 

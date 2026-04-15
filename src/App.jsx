@@ -9,6 +9,7 @@ import Skill from "./Pages/Skill";
 import Projects from "./Pages/Projects";
 import Footer from "./Components/Footer";
 import Formfill from "./Pages/Formfill";
+import Navbar from "./Components/Navbar";
 
 export default function App() {
   useGSAP(() => {
@@ -49,8 +50,11 @@ export default function App() {
 
   return (
     <>
+      <Navbar />
       {/* Intro Section */}
-      <div className="introcontener relative min-h-screen overflow-hidden">
+      <div 
+      id="intro"
+      className="introcontener relative min-h-screen overflow-hidden">
         
         <div className="intro1 relative z-10">
           <Intro />

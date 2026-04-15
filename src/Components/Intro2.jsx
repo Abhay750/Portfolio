@@ -5,7 +5,7 @@ const Intro2 = () => {
     <div className="intro2 flex flex-col items-center justify-center min-h-screen w-full bg-black text-white px-4">
       
       <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl text-center leading-tight">
-        Welcome to my World
+        Welcome to my <span className="shine-text">Portfolio</span>
       </h1>
 
     </div>
