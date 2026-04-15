@@ -13,7 +13,7 @@ const Home = () => {
             Hi, I'm
           </h2>
 
-          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent leading-tight">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white leading-tight">
             Abhay Kumar
           </h1>
 
