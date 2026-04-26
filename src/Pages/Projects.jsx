@@ -4,12 +4,12 @@ import ProjectCard from "../Components/ProjectCard";
 const Projects = () => {
   const projects = [
     {
-      title: "OPPO Website Clone",
+      title: "MovieSearch",
       description:
-        "Developed a responsive and visually accurate clone of the OPPO product landing page, focusing on modern UI design, layout precision, and smooth user experience.",
-      tags: ["HTML5", "CSS3", "JavaScript"],
-      link: "https://abhay750.github.io/OPPO_cloning/",
-      gitlink: "https://github.com/abhay750/OPPO_cloning",
+        "Built a responsive movie discovery web application that allows users to browse trending films, view ratings, and explore detailed movie information using real-time API integration. Designed with a modern UI, smooth user experience, and dynamic content rendering.",
+      tags: ["React.js", "Tailwind CSS", "JavaScript", "TMDB API"],
+      link: "https://movie-search-delta-rosy.vercel.app/",
+      gitlink: "https://github.com/Abhay750/MovieSearch.git",
     },
     {
       title: "Adventure Sports Website",
