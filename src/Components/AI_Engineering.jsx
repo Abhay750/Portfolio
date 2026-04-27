@@ -4,7 +4,8 @@ const AI_Engineering = () => {
     const aiSkills = [
         { name: "RAG System", level: 10 },
         { name: "Machine Learning", level: 75 },
-        { name: "SaaS", level: 60 }
+        { name: "SaaS", level: 60 },
+        { name: "N8N" , level: 60},
     ];
 
     return (
